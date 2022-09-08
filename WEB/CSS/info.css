@@ -1,0 +1,33 @@
+#info{
+    background: #6e4d1e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#info h3{
+    justify-content: center;
+}
+
+.info-ca{
+    margin: 20px;
+}
+
+.info-ca img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid rgb(255, 255, 255);
+}
+
+@media (min-width:480){
+    .info-ca{
+        width: 40%;
+    }
+}

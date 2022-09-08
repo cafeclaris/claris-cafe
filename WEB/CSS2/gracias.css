@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    background-image: url(cafesito.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+a{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

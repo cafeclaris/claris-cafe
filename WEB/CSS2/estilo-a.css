@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(pregunta.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: rgb(112, 67, 0);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;   
+    left: 0;
+    z-index: 100;
+}
+
+h1{
+    float: left;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+header .contenedor{
+    display: table;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ayuda-1 img{
+    width: 920px;
+    height: 432px;
+    justify-content: center;
+    margin: 15px;
+}
+
+.ayuda-2 img{
+    width: 601px;
+    height: 921px;
+    justify-content: center;
+    margin: 15px;
+}
+
+.ayuda a{
+    color: rgb(255, 255, 255);
+    position: fixed;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+form{
+    width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+h3{
+    text-align: center;
+    margin: 0;
+}
+
+#ayuda{
+    background: #6e4d1e8c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+@media (min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+}
+
+@media (min-width:480){
+    .info-ca{
+        width: 40%;
+    }
+}

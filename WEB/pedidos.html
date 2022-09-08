@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <title>Pedidos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="windth=device-width, user-scalable=no, intial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="css2/estilo-pe.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+</head>
+<body>
+    <form action="enviar.php" method="post">
+        <h2>¡Pide tus pasteles aqui!</h2>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="correo" placeholder="Correo" required>
+        <input type="number" name="tel" placeholder="Teléfono" required>
+        <input type="text" name="color" placeholder="¿Color del pastel?" required>
+        <input type="number" name="para cuantas personas" placeholder="¿Para cuántas personas?" required>
+        <input type="text" name="tamanio" placeholder="¿Tamaño?" required>
+        <input type="text" name="fig" placeholder="¿Con figura de arroz? ¿Qué personaje?" required>
+        <h6><b>(IMPORTANTE: si la foto que quiere ponerle al pastel lo tiene usted, porfavor enviarlo al WhatsApp o al correo, dar su nombre y correo que puso en este formulario, que lo puede encontrar en "Contacto", en el espacio de arriba responda "si")</b></h6>
+        <input type="submit" value="Pedir" id="boton">
+    </form>
+    <header>
+        <div class="contenedor">
+            <h1>Café Clari's</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <ul class="menu"> 
+                <li><a href="cafe.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="pedidos.html">Hacer pedido</a></li>
+                <li><a href="Contactos.html">Contacto</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </div>
+    </header>
+    <footer>
+        <div class="contenedor">
+            <p class="copy">Café Clari's &copy; 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
